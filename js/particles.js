@@ -98,6 +98,7 @@ class Particles {
         this.ctx.translate(translateX, translateY);
         this.ctx.beginPath();
         this.ctx.arc(x, y, size, 0, 2 * Math.PI);
+        // Partículas en blanco como originalmente
         this.ctx.fillStyle = `rgba(255, 255, 255, ${alpha})`;
         this.ctx.fill();
         this.ctx.restore();
